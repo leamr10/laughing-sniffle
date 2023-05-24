@@ -11,5 +11,8 @@ body {
 .header-text {
     display: inline;
     position: fixed;
+    background-color: lightslategray;
 }
+
+
 
