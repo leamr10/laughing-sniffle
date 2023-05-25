@@ -1,18 +1,32 @@
 * {
     font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     font-size: 20px;
-    color: lightgreen;
+    color: black;
     background-color: skyblue;
 }
 
-.header-text {
-    display: inline;
+header {
     position: fixed;
-    background-color: lightslategray;
+    height: 70px;
+    width:100%;
+    line-height: 70 px;
+    background-color:lightslategrey ;
+    display: block;
 }
+
+.header-text {
+    text-align: right;
+}
+
+.main-text {
+    text-align: center;
+}
+
 
 
 
